@@ -12,3 +12,11 @@ HOW TO USE
 引入这些文件
 
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-1.png)
+<br/><br/>
+2.Create SFBarrageGiftMainView   创建SFBarrageGiftMainView<br/>
+[[SFBarrageGiftMainView alloc] initWithFrame:CGRectMake(0, 100, kSCREEN_WIDTH, 300)]
+<br/>
+3.Use the propertys to adapt your project <br/>
+  使用以下图片中的属性来适应您自己的项目<br/><br/>
+  
+  
