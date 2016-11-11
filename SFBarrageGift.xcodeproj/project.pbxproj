@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF92E5CC1DD44C94004033B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5CB1DD44C94004033B5 /* main.m */; };
+		FF92E5CF1DD44C94004033B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5CE1DD44C94004033B5 /* AppDelegate.m */; };
+		FF92E5D51DD44C94004033B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF92E5D31DD44C94004033B5 /* Main.storyboard */; };
+		FF92E5DA1DD44C94004033B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF92E5D81DD44C94004033B5 /* LaunchScreen.storyboard */; };
+		FF92E5E51DD44C94004033B5 /* SFBarrageGiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5E41DD44C94004033B5 /* SFBarrageGiftTests.m */; };
+		FF92E5F01DD44C94004033B5 /* SFBarrageGiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5EF1DD44C94004033B5 /* SFBarrageGiftUITests.m */; };
+		FF92E5FF1DD45111004033B5 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5FE1DD45111004033B5 /* SFViewController.m */; };
+		FF92E6051DD45322004033B5 /* SFBarrageGiftMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E6041DD45322004033B5 /* SFBarrageGiftMainView.m */; };
+		FF92E6081DD45336004033B5 /* SFGiftLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E6071DD45336004033B5 /* SFGiftLeftView.m */; };
+		FF92E60A1DD45342004033B5 /* SFGiftLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */; };
+		FF92E60D1DD461E2004033B5 /* SFGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E60C1DD461E2004033B5 /* SFGiftModel.m */; };
+		FF92E60F1DD46382004033B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF92E60E1DD46382004033B5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF92E5E11DD44C94004033B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF92E5BF1DD44C94004033B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF92E5C61DD44C94004033B5;
+			remoteInfo = SFBarrageGift;
+		};
+		FF92E5EC1DD44C94004033B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF92E5BF1DD44C94004033B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF92E5C61DD44C94004033B5;
+			remoteInfo = SFBarrageGift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E64F42C91DD4A89000FB6134 /* SFBarrageHelper.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarrageHelper.pch; sourceTree = "<group>"; };
+		FF92E5C71DD44C94004033B5 /* SFBarrageGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFBarrageGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF92E5CB1DD44C94004033B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF92E5CD1DD44C94004033B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF92E5CE1DD44C94004033B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF92E5D41DD44C94004033B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF92E5D91DD44C94004033B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF92E5DB1DD44C94004033B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF92E5E01DD44C94004033B5 /* SFBarrageGiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBarrageGiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF92E5E41DD44C94004033B5 /* SFBarrageGiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBarrageGiftTests.m; sourceTree = "<group>"; };
+		FF92E5E61DD44C94004033B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF92E5EB1DD44C94004033B5 /* SFBarrageGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBarrageGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF92E5EF1DD44C94004033B5 /* SFBarrageGiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBarrageGiftUITests.m; sourceTree = "<group>"; };
+		FF92E5F11DD44C94004033B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF92E5FD1DD45111004033B5 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		FF92E5FE1DD45111004033B5 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		FF92E6031DD45322004033B5 /* SFBarrageGiftMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarrageGiftMainView.h; sourceTree = "<group>"; };
+		FF92E6041DD45322004033B5 /* SFBarrageGiftMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarrageGiftMainView.m; sourceTree = "<group>"; };
+		FF92E6061DD45336004033B5 /* SFGiftLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGiftLeftView.h; sourceTree = "<group>"; };
+		FF92E6071DD45336004033B5 /* SFGiftLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGiftLeftView.m; sourceTree = "<group>"; };
+		FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFGiftLeftView.xib; sourceTree = "<group>"; };
+		FF92E60B1DD461E2004033B5 /* SFGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGiftModel.h; sourceTree = "<group>"; };
+		FF92E60C1DD461E2004033B5 /* SFGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGiftModel.m; sourceTree = "<group>"; };
+		FF92E60E1DD46382004033B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF92E5C41DD44C94004033B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5DD1DD44C94004033B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5E81DD44C94004033B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF92E5BE1DD44C94004033B5 = {
+			isa = PBXGroup;
+			children = (
+				FF92E5C91DD44C94004033B5 /* SFBarrageGift */,
+				FF92E5E31DD44C94004033B5 /* SFBarrageGiftTests */,
+				FF92E5EE1DD44C94004033B5 /* SFBarrageGiftUITests */,
+				FF92E5C81DD44C94004033B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF92E5C81DD44C94004033B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E5C71DD44C94004033B5 /* SFBarrageGift.app */,
+				FF92E5E01DD44C94004033B5 /* SFBarrageGiftTests.xctest */,
+				FF92E5EB1DD44C94004033B5 /* SFBarrageGiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF92E5C91DD44C94004033B5 /* SFBarrageGift */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E6001DD452DE004033B5 /* SFBarrageGifts */,
+				FF92E5CD1DD44C94004033B5 /* AppDelegate.h */,
+				FF92E5CE1DD44C94004033B5 /* AppDelegate.m */,
+				FF92E5FD1DD45111004033B5 /* SFViewController.h */,
+				FF92E5FE1DD45111004033B5 /* SFViewController.m */,
+				E64F42C91DD4A89000FB6134 /* SFBarrageHelper.pch */,
+				FF92E60E1DD46382004033B5 /* Assets.xcassets */,
+				FF92E5D31DD44C94004033B5 /* Main.storyboard */,
+				FF92E5D81DD44C94004033B5 /* LaunchScreen.storyboard */,
+				FF92E5DB1DD44C94004033B5 /* Info.plist */,
+				FF92E5CA1DD44C94004033B5 /* Supporting Files */,
+			);
+			path = SFBarrageGift;
+			sourceTree = "<group>";
+		};
+		FF92E5CA1DD44C94004033B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E5CB1DD44C94004033B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF92E5E31DD44C94004033B5 /* SFBarrageGiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E5E41DD44C94004033B5 /* SFBarrageGiftTests.m */,
+				FF92E5E61DD44C94004033B5 /* Info.plist */,
+			);
+			path = SFBarrageGiftTests;
+			sourceTree = "<group>";
+		};
+		FF92E5EE1DD44C94004033B5 /* SFBarrageGiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E5EF1DD44C94004033B5 /* SFBarrageGiftUITests.m */,
+				FF92E5F11DD44C94004033B5 /* Info.plist */,
+			);
+			path = SFBarrageGiftUITests;
+			sourceTree = "<group>";
+		};
+		FF92E6001DD452DE004033B5 /* SFBarrageGifts */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E6031DD45322004033B5 /* SFBarrageGiftMainView.h */,
+				FF92E6041DD45322004033B5 /* SFBarrageGiftMainView.m */,
+				FF92E6011DD452DE004033B5 /* SFBarrageGiftModel */,
+				FF92E6021DD452DE004033B5 /* SFBarrageGiftView */,
+			);
+			path = SFBarrageGifts;
+			sourceTree = "<group>";
+		};
+		FF92E6011DD452DE004033B5 /* SFBarrageGiftModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E60B1DD461E2004033B5 /* SFGiftModel.h */,
+				FF92E60C1DD461E2004033B5 /* SFGiftModel.m */,
+			);
+			path = SFBarrageGiftModel;
+			sourceTree = "<group>";
+		};
+		FF92E6021DD452DE004033B5 /* SFBarrageGiftView */ = {
+			isa = PBXGroup;
+			children = (
+				FF92E6061DD45336004033B5 /* SFGiftLeftView.h */,
+				FF92E6071DD45336004033B5 /* SFGiftLeftView.m */,
+				FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */,
+			);
+			path = SFBarrageGiftView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF92E5C61DD44C94004033B5 /* SFBarrageGift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF92E5F41DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGift" */;
+			buildPhases = (
+				FF92E5C31DD44C94004033B5 /* Sources */,
+				FF92E5C41DD44C94004033B5 /* Frameworks */,
+				FF92E5C51DD44C94004033B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFBarrageGift;
+			productName = SFBarrageGift;
+			productReference = FF92E5C71DD44C94004033B5 /* SFBarrageGift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF92E5DF1DD44C94004033B5 /* SFBarrageGiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF92E5F71DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGiftTests" */;
+			buildPhases = (
+				FF92E5DC1DD44C94004033B5 /* Sources */,
+				FF92E5DD1DD44C94004033B5 /* Frameworks */,
+				FF92E5DE1DD44C94004033B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF92E5E21DD44C94004033B5 /* PBXTargetDependency */,
+			);
+			name = SFBarrageGiftTests;
+			productName = SFBarrageGiftTests;
+			productReference = FF92E5E01DD44C94004033B5 /* SFBarrageGiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF92E5EA1DD44C94004033B5 /* SFBarrageGiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF92E5FA1DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGiftUITests" */;
+			buildPhases = (
+				FF92E5E71DD44C94004033B5 /* Sources */,
+				FF92E5E81DD44C94004033B5 /* Frameworks */,
+				FF92E5E91DD44C94004033B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF92E5ED1DD44C94004033B5 /* PBXTargetDependency */,
+			);
+			name = SFBarrageGiftUITests;
+			productName = SFBarrageGiftUITests;
+			productReference = FF92E5EB1DD44C94004033B5 /* SFBarrageGiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF92E5BF1DD44C94004033B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "cnlive-lsf";
+				TargetAttributes = {
+					FF92E5C61DD44C94004033B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF92E5DF1DD44C94004033B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF92E5C61DD44C94004033B5;
+					};
+					FF92E5EA1DD44C94004033B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF92E5C61DD44C94004033B5;
+					};
+				};
+			};
+			buildConfigurationList = FF92E5C21DD44C94004033B5 /* Build configuration list for PBXProject "SFBarrageGift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF92E5BE1DD44C94004033B5;
+			productRefGroup = FF92E5C81DD44C94004033B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF92E5C61DD44C94004033B5 /* SFBarrageGift */,
+				FF92E5DF1DD44C94004033B5 /* SFBarrageGiftTests */,
+				FF92E5EA1DD44C94004033B5 /* SFBarrageGiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF92E5C51DD44C94004033B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF92E5DA1DD44C94004033B5 /* LaunchScreen.storyboard in Resources */,
+				FF92E60A1DD45342004033B5 /* SFGiftLeftView.xib in Resources */,
+				FF92E60F1DD46382004033B5 /* Assets.xcassets in Resources */,
+				FF92E5D51DD44C94004033B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5DE1DD44C94004033B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5E91DD44C94004033B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF92E5C31DD44C94004033B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF92E5CF1DD44C94004033B5 /* AppDelegate.m in Sources */,
+				FF92E6081DD45336004033B5 /* SFGiftLeftView.m in Sources */,
+				FF92E6051DD45322004033B5 /* SFBarrageGiftMainView.m in Sources */,
+				FF92E5FF1DD45111004033B5 /* SFViewController.m in Sources */,
+				FF92E60D1DD461E2004033B5 /* SFGiftModel.m in Sources */,
+				FF92E5CC1DD44C94004033B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5DC1DD44C94004033B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF92E5E51DD44C94004033B5 /* SFBarrageGiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92E5E71DD44C94004033B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF92E5F01DD44C94004033B5 /* SFBarrageGiftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF92E5E21DD44C94004033B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF92E5C61DD44C94004033B5 /* SFBarrageGift */;
+			targetProxy = FF92E5E11DD44C94004033B5 /* PBXContainerItemProxy */;
+		};
+		FF92E5ED1DD44C94004033B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF92E5C61DD44C94004033B5 /* SFBarrageGift */;
+			targetProxy = FF92E5EC1DD44C94004033B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF92E5D31DD44C94004033B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF92E5D41DD44C94004033B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF92E5D81DD44C94004033B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF92E5D91DD44C94004033B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF92E5F21DD44C94004033B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF92E5F31DD44C94004033B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF92E5F51DD44C94004033B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SFBarrageGift/SFBarrageHelper.pch;
+				INFOPLIST_FILE = SFBarrageGift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF92E5F61DD44C94004033B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SFBarrageGift/SFBarrageHelper.pch;
+				INFOPLIST_FILE = SFBarrageGift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF92E5F81DD44C94004033B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFBarrageGiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBarrageGift.app/SFBarrageGift";
+			};
+			name = Debug;
+		};
+		FF92E5F91DD44C94004033B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFBarrageGiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBarrageGift.app/SFBarrageGift";
+			};
+			name = Release;
+		};
+		FF92E5FB1DD44C94004033B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFBarrageGiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFBarrageGift;
+			};
+			name = Debug;
+		};
+		FF92E5FC1DD44C94004033B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFBarrageGiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cnlive-lsf.SFBarrageGiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFBarrageGift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF92E5C21DD44C94004033B5 /* Build configuration list for PBXProject "SFBarrageGift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF92E5F21DD44C94004033B5 /* Debug */,
+				FF92E5F31DD44C94004033B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF92E5F41DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF92E5F51DD44C94004033B5 /* Debug */,
+				FF92E5F61DD44C94004033B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF92E5F71DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF92E5F81DD44C94004033B5 /* Debug */,
+				FF92E5F91DD44C94004033B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF92E5FA1DD44C94004033B5 /* Build configuration list for PBXNativeTarget "SFBarrageGiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF92E5FB1DD44C94004033B5 /* Debug */,
+				FF92E5FC1DD44C94004033B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF92E5BF1DD44C94004033B5 /* Project object */;
+}
