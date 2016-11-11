@@ -11,3 +11,4 @@ HOW TO USE
 1.expoer the files
 引入这些文件
 
+![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-1.png)
