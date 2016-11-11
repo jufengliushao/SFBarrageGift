@@ -13,10 +13,26 @@ HOW TO USE
 
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-1.png)
 <br/><br/>
+
 2.Create SFBarrageGiftMainView   创建SFBarrageGiftMainView<br/>
 [[SFBarrageGiftMainView alloc] initWithFrame:CGRectMake(0, 100, kSCREEN_WIDTH, 300)]
 <br/>
+
+
 3.Use the propertys to adapt your project <br/>
   使用以下图片中的属性来适应您自己的项目<br/><br/>
   
+ ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-2.png)
+  
+ 
+ 4.Create your gift view    创建属于你自己的礼物view
+ 
+ you can create different gift view to show 
+ 
+ 
+ 5.ATTENTION  
+ 
+ If you have any question, please e-mail jufengliushao@163.com, I will reply soon.
+ 
+ 如果你有疑问，请联系邮箱 jufengliushao@163.com 我会及时的回复！
   
