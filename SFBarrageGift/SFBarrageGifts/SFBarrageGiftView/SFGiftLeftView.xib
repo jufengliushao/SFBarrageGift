@@ -17,19 +17,19 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="礼物飘屏-底色" translatesAutoresizingMaskIntoConstraints="NO" id="TOU-ym-NfT">
-                    <rect key="frame" x="32.5" y="7" width="175.5" height="35"/>
+                    <rect key="frame" x="32" y="7" width="176" height="35"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="35" id="Q8Y-0c-w5I"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邓紫棋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUK-Ix-eQC">
-                    <rect key="frame" x="47.5" y="16" width="43" height="17"/>
+                    <rect key="frame" x="47" y="16" width="43" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送了花环" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIB-eE-Adz">
-                    <rect key="frame" x="95.5" y="16" width="57.5" height="17"/>
+                    <rect key="frame" x="95" y="16" width="58" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
         </view>
     </objects>
     <resources>
-        <image name="礼物飘屏-底色" width="160" height="35"/>
+        <image name="礼物飘屏-底色" width="34" height="35"/>
         <image name="花环" width="50" height="50"/>
     </resources>
 </document>

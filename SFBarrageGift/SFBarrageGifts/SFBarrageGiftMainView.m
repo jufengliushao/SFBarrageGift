@@ -71,6 +71,9 @@ static NSString *indexLineEmpty = @"noEmptyLine";
         [_showNumDic setObject:[NSNumber numberWithBool:YES] forKey:giftView.canShowKey];
         [giftView removeFromSuperview];
         [_giftViewArr removeObject:giftView];
+        if (self.passMissViewBlock) {
+            self.passMissViewBlock();
+        }
         [self startAnimation];
     }];
 }

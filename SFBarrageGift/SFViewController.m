@@ -8,9 +8,15 @@
 
 #import "SFViewController.h"
 #import "SFBarrageGiftMainView.h"
-@interface SFViewController ()
+@interface SFViewController (){
+    NSInteger _totalNum;
+}
+@property (weak, nonatomic) IBOutlet UILabel *leftViews;
+@property (weak, nonatomic) IBOutlet UILabel *describeLabel;
 @property (nonatomic, strong) SFBarrageGiftMainView *sfBarrageGiftView;
 @end
+
+static NSString *markStr = @"LeftViews: ";
 
 @implementation SFViewController
 
@@ -20,6 +26,18 @@
 //    self.sfBarrageGiftView.totalShowNum = 2;
     self.sfBarrageGiftView.showDirection = SFGIFT_DIRECTION_LEFT;
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addData:)]];
+    
+    
+    _totalNum = 0;
+    self.leftViews.text = [NSString stringWithFormat:@"%@0",markStr];
+    self.describeLabel.numberOfLines = 0;
+    self.describeLabel.text = @"you can click the iphone screen, and the gift-view will  be added, each by three views.";
+    
+    __block SFViewController *blockSelf = self;
+    self.sfBarrageGiftView.passMissViewBlock = ^(){
+        _totalNum -= 1;
+        [blockSelf changeTotalNum];
+    };
     // Do any additional setup after loading the view.
 }
 
@@ -45,7 +63,13 @@
     model2.giftName = @"dddddddddddddd";
     model2.giftPicName = @"花环";
     
+    _totalNum += 3;
+    [self changeTotalNum];
     self.sfBarrageGiftView.showGiftModelArray = @[model0, model1, model2];
+}
+
+- (void)changeTotalNum{
+    self.leftViews.text = [NSString stringWithFormat:@"%@%d", markStr, _totalNum];
 }
 
 #pragma mark -----------init------------
