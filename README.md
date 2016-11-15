@@ -31,22 +31,22 @@ HOW TO USE
  
  2016.11.15 Update Log
  2016.11.15     
-        1.add some properties 
+   1.add some properties 
  
-       add enum SFGiftViewShowAligning which set the sub-gift-view align to superView.
-       添加SFGiftViewShowAligning 枚举，提供礼物条与父视图的对齐方式
+   add enum SFGiftViewShowAligning which set the sub-gift-view align to superView.
+   添加SFGiftViewShowAligning 枚举，提供礼物条与父视图的对齐方式
  
-      ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-3.png)
+![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-3.png)
  
-      add some sub-gift-view properties for users 
-      添加一些礼物条的属性
+   add some sub-gift-view properties for users 
+    添加一些礼物条的属性
  
-      ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-4.png)
+![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-4.png)
  
-      2.add note for  SFGiftLeftView.h
-        为SFGiftLeftView.h添加注释
+   2.add note for  SFGiftLeftView.h
+     为SFGiftLeftView.h添加注释
         
-        ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-5.png)
+![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-5.png)
         
         
  
