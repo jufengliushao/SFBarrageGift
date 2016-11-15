@@ -17,6 +17,7 @@ static NSString *giftStrPre = @"送了";
 }
 
 - (void)configureModel:(SFGiftModel *)configureModel{
+    self.backgroundColor = [UIColor clearColor];
     self.nameLabel.text = configureModel.nickName;
     self.giftTiteLabel.text = [NSString stringWithFormat:@"%@%@", giftStrPre, configureModel.giftName];
     self.giftImageView.image = [UIImage imageNamed:configureModel.giftPicName];

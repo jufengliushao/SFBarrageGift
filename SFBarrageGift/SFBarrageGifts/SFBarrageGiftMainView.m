@@ -18,6 +18,8 @@ static NSString *indexLineEmpty = @"noEmptyLine";
     NSMutableArray *_giftViewArr;
     NSArray *_showGiftModelArr;
     NSTimer *_emptimer;
+    
+    BOOL _isAnimation;
 }
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
@@ -28,6 +30,7 @@ static NSString *indexLineEmpty = @"noEmptyLine";
 - (instancetype)init{
     if (self = [super init]) {
         self.totalShowNum = 2;
+        _isAnimation = NO;
     }
     return self;
 }
@@ -35,6 +38,7 @@ static NSString *indexLineEmpty = @"noEmptyLine";
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         self.totalShowNum = 2;
+        _isAnimation = NO;
     }
     return self;
 }
@@ -50,13 +54,20 @@ static NSString *indexLineEmpty = @"noEmptyLine";
 
 #pragma mark -------------Animation---------------
 - (void)giftViewShowFromLeftToRightWithView:(SFGiftLeftView *)giftView{
+    CGFloat delay = 0.f;
+    for (SFGiftLeftView *view in _giftViewArr) {
+        if (view.isShow) {
+            delay = .5f;
+            break;
+        }
+    }
     giftView.isShow = YES;
-   [UIView animateWithDuration:self.lineShowDuration delay:self.lineDelay options:UIViewAnimationOptionCurveEaseInOut animations:^{
+   [UIView animateWithDuration:self.lineShowDuration delay:self.lineDelay + delay options:UIViewAnimationOptionCurveEaseInOut animations:^{
        giftView.hidden = NO;
        if (self.showDirection == SFGIFT_DIRECTION_LEFT) {
-           giftView.frame = CGRectMake(0, giftView.frame.origin.y, giftView.frame.size.width, giftView.frame.size.height);
+           giftView.frame = CGRectMake(self.giftViewBoundsSpace, giftView.frame.origin.y, giftView.frame.size.width, giftView.frame.size.height);
        }else{
-           giftView.frame = CGRectMake(self.frame.size.width - giftView.viewWidth, giftView.frame.origin.y, giftView.frame.size.width, giftView.frame.size.height);
+           giftView.frame = CGRectMake(self.frame.size.width - giftView.viewWidth - self.giftViewBoundsSpace, giftView.frame.origin.y, giftView.frame.size.width, giftView.frame.size.height);
        }
    } completion:^(BOOL finished) {
        [self giftViewMissWithView:giftView];
@@ -106,12 +117,19 @@ static NSString *indexLineEmpty = @"noEmptyLine";
 
 - (CGRect)returnInitialFrameWithIndex:(NSInteger)index view:(SFGiftLeftView *)giftView{
     CGRect frame;
+    CGFloat y = self.giftViewHeight * index;
+    if (self.giftViewAlign == SFGIFT_BOTTOM_ALIGNING) {
+        y = self.frame.size.height - self.giftViewHeight * (index + 1);
+    }
+    if (giftView.viewWidth > self.frame.size.width) {
+        giftView.viewWidth = self.frame.size.width;
+    }
     if (self.showDirection == SFGIFT_DIRECTION_LEFT) {
         // 从左边出现
-        frame = CGRectMake( -giftView.viewWidth + 20.f, self.frame.size.height - 50.f * index, giftView.viewWidth, 50.f);
+        frame = CGRectMake( -giftView.viewWidth - 20.f, y, giftView.viewWidth, self.giftViewHeight);
     }else{
         // 从右边出现
-        frame = CGRectMake(self.frame.size.width + 20.f, self.frame.size.height - 50.f * index,giftView.viewWidth, 50.f);
+        frame = CGRectMake(self.frame.size.width + 20.f, y,giftView.viewWidth, self.giftViewHeight);
     }
     return frame;
 }
@@ -219,6 +237,27 @@ static NSString *indexLineEmpty = @"noEmptyLine";
         _missDuration = 0.8f;
     }
     return _missDuration;
+}
+
+- (CGFloat)giftViewHeight{
+    if (!_giftViewHeight) {
+        _giftViewHeight = 50.f;
+    }
+    return _giftViewHeight;
+}
+
+- (CGFloat)giftViewBoundsSpace{
+    if (!_giftViewBoundsSpace) {
+        _giftViewBoundsSpace = 0.f;
+    }
+    return _giftViewBoundsSpace;
+}
+
+- (SFGiftViewShowAligning)giftViewAlign{
+    if (!_giftViewAlign) {
+        _giftViewAlign = SFGIFT_BOTTOM_ALIGNING;
+    }
+    return _giftViewAlign;
 }
 #pragma mark ----------------init----------------
 - (NSMutableArray *)dataArray{

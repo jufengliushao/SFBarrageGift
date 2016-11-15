@@ -13,29 +13,29 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SFGiftLeftView">
-            <rect key="frame" x="0.0" y="0.0" width="240" height="48"/>
+            <rect key="frame" x="0.0" y="0.0" width="257" height="48"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="礼物飘屏-底色" translatesAutoresizingMaskIntoConstraints="NO" id="TOU-ym-NfT">
-                    <rect key="frame" x="32" y="7" width="176" height="35"/>
+                    <rect key="frame" x="40.5" y="7" width="176" height="35"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="35" id="Q8Y-0c-w5I"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邓紫棋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUK-Ix-eQC">
-                    <rect key="frame" x="47" y="16" width="43" height="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="744" text="邓紫棋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUK-Ix-eQC">
+                    <rect key="frame" x="55.5" y="16" width="43" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送了花环" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIB-eE-Adz">
-                    <rect key="frame" x="95" y="16" width="58" height="17"/>
+                    <rect key="frame" x="103.5" y="16" width="58" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="花环" translatesAutoresizingMaskIntoConstraints="NO" id="Mex-0Z-RGn">
-                    <rect key="frame" x="163" y="6" width="35" height="35"/>
+                    <rect key="frame" x="171.5" y="6" width="35" height="35"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="35" id="AWq-lR-f7d"/>
                         <constraint firstAttribute="width" secondItem="Mex-0Z-RGn" secondAttribute="height" multiplier="1:1" id="EER-Ne-Eqh"/>
@@ -45,12 +45,14 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="HIB-eE-Adz" firstAttribute="leading" secondItem="oUK-Ix-eQC" secondAttribute="trailing" constant="5" id="18C-9d-aDG"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mex-0Z-RGn" secondAttribute="trailing" constant="10" id="Buy-Rz-4u0"/>
                 <constraint firstItem="oUK-Ix-eQC" firstAttribute="leading" secondItem="TOU-ym-NfT" secondAttribute="leading" constant="15" id="MeU-G9-IuL"/>
                 <constraint firstItem="oUK-Ix-eQC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PW4-Xb-Pbt"/>
                 <constraint firstItem="Mex-0Z-RGn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="aPk-8Q-jjs"/>
                 <constraint firstItem="Mex-0Z-RGn" firstAttribute="leading" secondItem="HIB-eE-Adz" secondAttribute="trailing" constant="10" id="fOz-rp-jHc"/>
                 <constraint firstItem="TOU-ym-NfT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="mQO-hb-8sq"/>
                 <constraint firstItem="Mex-0Z-RGn" firstAttribute="trailing" secondItem="TOU-ym-NfT" secondAttribute="trailing" constant="-10" id="mWy-7s-nRP"/>
+                <constraint firstItem="oUK-Ix-eQC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="pen-SS-rJa"/>
                 <constraint firstItem="TOU-ym-NfT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wyT-Nf-R8P"/>
                 <constraint firstItem="HIB-eE-Adz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xps-BW-d7K"/>
             </constraints>
@@ -61,7 +63,7 @@
                 <outlet property="nameLabel" destination="oUK-Ix-eQC" id="cvX-3Y-4r2"/>
                 <outlet property="shadowView" destination="TOU-ym-NfT" id="YxL-1h-wvT"/>
             </connections>
-            <point key="canvasLocation" x="69" y="-163"/>
+            <point key="canvasLocation" x="22.5" y="-161"/>
         </view>
     </objects>
     <resources>

@@ -21,6 +21,16 @@ typedef NS_ENUM (NSInteger, SFGiftShowDirection){
     SFGIFT_DIRECTION_RIGHT /** 从屏幕右边展现 come from phone screen right */
 };
 
+
+/**
+ gift-view 相对与superview的对齐方式
+ 
+ */
+typedef NS_ENUM(NSInteger, SFGiftViewShowAligning) {
+    SFGIFT_BOTTOM_ALIGNING, /** 以底部对齐 默认 gift-view align to the view bottom  default*/
+    SFGIFT_TOP_ALIGNING /** 以顶部对齐 gift-view align to the view top */
+};
+
 typedef void(^PassMissViewBlock)();
 
 @interface SFBarrageGiftMainView : UIView
@@ -30,7 +40,12 @@ typedef void(^PassMissViewBlock)();
 @property (nonatomic, assign) SFGiftShowDirection showDirection; /** 礼物从屏幕的左边或者右边显示 默认 从左边出现 */
 @property (nonatomic, strong) NSArray *showGiftModelArray; /** 展示的数据 为SFGiftModel */
 
-
+/**
+ gift-view 参数
+ */
+@property (nonatomic, assign) CGFloat giftViewHeight; /** 礼物条的高度 gift-view-height default 50.f */
+@property (nonatomic, assign) CGFloat giftViewBoundsSpace; /** 礼物条距离边距的距离 gift-view to screen space defaule 0.f */
+@property (nonatomic, assign) SFGiftViewShowAligning giftViewAlign; /** gift-view 相对于SuperView的对齐方式 默认 底部对齐 gift-view align default SFGIFT_BOTTOM_ALIGNING */
 /**
  时间参数
  */
