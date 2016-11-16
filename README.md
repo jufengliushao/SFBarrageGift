@@ -25,15 +25,15 @@ SFBarrageGift 将直播过程中的礼物送出简单化，你只需要使用 SF
  ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-2.png)
   
  
- <h2>4.Create your gift view    创建属于你自己的礼物view<h2>
+ <h2>4.Create your gift view    创建属于你自己的礼物view</h2>
  
  you can create different gift view to show 
  
 <h3>2016.11.15 Update Log</h3>
  2016.11.15     
- <h4>1.add some properties </h4>
+<h4>1.add some properties </h4>
  
-   add enum SFGiftViewShowAligning which set the sub-gift-view align to superView.
+  add enum SFGiftViewShowAligning which set the sub-gift-view align to superView.
    添加SFGiftViewShowAligning 枚举，提供礼物条与父视图的对齐方式
  
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-3.png)
@@ -49,7 +49,7 @@ SFBarrageGift 将直播过程中的礼物送出简单化，你只需要使用 SF
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-5.png)
         
   
-  <h2>5.ATTENTION  </h2>
+ <h2>5.ATTENTION  </h2>
  
  If you have any question, please e-mail jufengliushao@163.com, I will reply soon.
  
