@@ -5,31 +5,31 @@ SFBarrageGift, which will show you how easy to realize the gift show animation. 
 
 SFBarrageGift 将直播过程中的礼物送出简单化，你只需要使用 SFBarrageGiftMainView 即可实现本功能。
 
-HOW TO USE
+<h1>HOW TO USE</h1>
 使用方法
 
-1.expoer the files
+ <h2>1.expoer the files</h2>
 引入这些文件
 
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-1.png)
 <br/><br/>
 
-2.Create SFBarrageGiftMainView   创建SFBarrageGiftMainView<br/>
+<h2>2.Create SFBarrageGiftMainView   创建SFBarrageGiftMainView</h2><br/>
 [[SFBarrageGiftMainView alloc] initWithFrame:CGRectMake(0, 100, kSCREEN_WIDTH, 300)]
 <br/>
 
 
-3.Use the propertys to adapt your project <br/>
+<h2>3.Use the propertys to adapt your project</h2> <br/>
   使用以下图片中的属性来适应您自己的项目<br/><br/>
   
  ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-2.png)
   
  
- 4.Create your gift view    创建属于你自己的礼物view
+ <h2>4.Create your gift view    创建属于你自己的礼物view<h2>
  
  you can create different gift view to show 
  
- 2016.11.15 Update Log
+ <p color='grey'><h3>2016.11.15 Update Log</h3>
  2016.11.15     
    1.add some properties 
  
@@ -48,9 +48,9 @@ HOW TO USE
         
 ![image](https://github.com/jufengliushao/SFBarrageGift/blob/master/ReadmeImage/Readme-5.png)
         
-        
- 
- 5.ATTENTION  
+  </p>
+  
+  <h2>5.ATTENTION  </h2>
  
  If you have any question, please e-mail jufengliushao@163.com, I will reply soon.
  
