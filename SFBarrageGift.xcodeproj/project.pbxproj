@@ -15,8 +15,6 @@
 		FF92E5F01DD44C94004033B5 /* SFBarrageGiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5EF1DD44C94004033B5 /* SFBarrageGiftUITests.m */; };
 		FF92E5FF1DD45111004033B5 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5FE1DD45111004033B5 /* SFViewController.m */; };
 		FF92E6051DD45322004033B5 /* SFBarrageGiftMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E6041DD45322004033B5 /* SFBarrageGiftMainView.m */; };
-		FF92E6081DD45336004033B5 /* SFGiftLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E6071DD45336004033B5 /* SFGiftLeftView.m */; };
-		FF92E60A1DD45342004033B5 /* SFGiftLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */; };
 		FF92E60D1DD461E2004033B5 /* SFGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E60C1DD461E2004033B5 /* SFGiftModel.m */; };
 		FF92E60F1DD46382004033B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF92E60E1DD46382004033B5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -58,8 +56,6 @@
 		FF92E6031DD45322004033B5 /* SFBarrageGiftMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarrageGiftMainView.h; sourceTree = "<group>"; };
 		FF92E6041DD45322004033B5 /* SFBarrageGiftMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarrageGiftMainView.m; sourceTree = "<group>"; };
 		FF92E6061DD45336004033B5 /* SFGiftLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGiftLeftView.h; sourceTree = "<group>"; };
-		FF92E6071DD45336004033B5 /* SFGiftLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGiftLeftView.m; sourceTree = "<group>"; };
-		FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFGiftLeftView.xib; sourceTree = "<group>"; };
 		FF92E60B1DD461E2004033B5 /* SFGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGiftModel.h; sourceTree = "<group>"; };
 		FF92E60C1DD461E2004033B5 /* SFGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGiftModel.m; sourceTree = "<group>"; };
 		FF92E60E1DD46382004033B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,8 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				FF92E6061DD45336004033B5 /* SFGiftLeftView.h */,
-				FF92E6071DD45336004033B5 /* SFGiftLeftView.m */,
-				FF92E6091DD45342004033B5 /* SFGiftLeftView.xib */,
 			);
 			path = SFBarrageGiftView;
 			sourceTree = "<group>";
@@ -291,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF92E5DA1DD44C94004033B5 /* LaunchScreen.storyboard in Resources */,
-				FF92E60A1DD45342004033B5 /* SFGiftLeftView.xib in Resources */,
 				FF92E60F1DD46382004033B5 /* Assets.xcassets in Resources */,
 				FF92E5D51DD44C94004033B5 /* Main.storyboard in Resources */,
 			);
@@ -319,7 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF92E5CF1DD44C94004033B5 /* AppDelegate.m in Sources */,
-				FF92E6081DD45336004033B5 /* SFGiftLeftView.m in Sources */,
 				FF92E6051DD45322004033B5 /* SFBarrageGiftMainView.m in Sources */,
 				FF92E5FF1DD45111004033B5 /* SFViewController.m in Sources */,
 				FF92E60D1DD461E2004033B5 /* SFGiftModel.m in Sources */,
