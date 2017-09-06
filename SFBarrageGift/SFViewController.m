@@ -59,8 +59,8 @@ static NSString *markStr = @"LeftViews: ";
     model1.giftName = @"aaa";
     
     SFGiftModel *model2 = [[SFGiftModel alloc] init];
-    model2.nickName = @"aaaaaaaaaaaaaaaaaaaaaaaaa";
-    model2.giftName = @"ddddddddddddddddddddddddd";
+    model2.nickName = @"aaaaaaaaaaaaaa";
+    model2.giftName = @"ddddddddd";
     model2.giftPicName = @"花环";
     
     _totalNum += 3;
