@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6A7993D1F5FB004003DD2CB /* SFGiftLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6A7993B1F5FB004003DD2CB /* SFGiftLeftView.xib */; };
+		E6A7993E1F5FB004003DD2CB /* SFGiftLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A7993C1F5FB004003DD2CB /* SFGiftLeftView.m */; };
 		FF92E5CC1DD44C94004033B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5CB1DD44C94004033B5 /* main.m */; };
 		FF92E5CF1DD44C94004033B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92E5CE1DD44C94004033B5 /* AppDelegate.m */; };
 		FF92E5D51DD44C94004033B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF92E5D31DD44C94004033B5 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		E64F42C91DD4A89000FB6134 /* SFBarrageHelper.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarrageHelper.pch; sourceTree = "<group>"; };
+		E6A7993B1F5FB004003DD2CB /* SFGiftLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFGiftLeftView.xib; sourceTree = "<group>"; };
+		E6A7993C1F5FB004003DD2CB /* SFGiftLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGiftLeftView.m; sourceTree = "<group>"; };
 		FF92E5C71DD44C94004033B5 /* SFBarrageGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFBarrageGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF92E5CB1DD44C94004033B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF92E5CD1DD44C94004033B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				FF92E6061DD45336004033B5 /* SFGiftLeftView.h */,
+				E6A7993B1F5FB004003DD2CB /* SFGiftLeftView.xib */,
+				E6A7993C1F5FB004003DD2CB /* SFGiftLeftView.m */,
 			);
 			path = SFBarrageGiftView;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A7993D1F5FB004003DD2CB /* SFGiftLeftView.xib in Resources */,
 				FF92E5DA1DD44C94004033B5 /* LaunchScreen.storyboard in Resources */,
 				FF92E60F1DD46382004033B5 /* Assets.xcassets in Resources */,
 				FF92E5D51DD44C94004033B5 /* Main.storyboard in Resources */,
@@ -313,6 +320,7 @@
 			files = (
 				FF92E5CF1DD44C94004033B5 /* AppDelegate.m in Sources */,
 				FF92E6051DD45322004033B5 /* SFBarrageGiftMainView.m in Sources */,
+				E6A7993E1F5FB004003DD2CB /* SFGiftLeftView.m in Sources */,
 				FF92E5FF1DD45111004033B5 /* SFViewController.m in Sources */,
 				FF92E60D1DD461E2004033B5 /* SFGiftModel.m in Sources */,
 				FF92E5CC1DD44C94004033B5 /* main.m in Sources */,
